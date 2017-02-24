@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Material Tweets</title>
+        <meta charset="utf-8">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/custom.css"  media="screen,projection"/>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    </head>
+    <body>
+        <div class="container">
+	        <div class="row">
+	            <div class="col s12 m4 offset-m4">
+	                <h4 class="center-align">Search leads</h4>
+	            </div>
+	        </div>
+	        <div class="row">
+	            <form class="col s12">
+	                <div class="row">
+	                    <div class="input-field col s12 m6 offset-m3">
+	                        <input placeholder="Search keyword or #hashtag" id="q" name="q" type="text" class="validate">
+	                    </div>
+	                </div>
+	                <div class="row">
+	                    <div class="col s12 m4 offset-m4 search">
+	                        <a class="waves-effect waves-light btn-large" href="javascript:search();">Search</a>
+	                    </div>
+	                </div>
+	            </form>
+	        </div>
+	        <div class="row loading">
+	        	<div class="center-align">
+					<div class="preloader-wrapper big active">
+						<div class="spinner-layer spinner-green-only">
+							<div class="circle-clipper left">
+								<div class="circle"></div>
+							</div>
+							<div class="gap-patch">
+								<div class="circle"></div>
+							</div>
+							<div class="circle-clipper right">
+								<div class="circle"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+		    </div>
+		    <div class="row  tweets">
+			    
+		    </div>
+        </div>
+        <footer></footer>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
